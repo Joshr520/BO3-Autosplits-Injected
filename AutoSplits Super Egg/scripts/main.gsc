@@ -58,7 +58,6 @@ start_on_fade_in()
     // Wait until rounds have started, then wait accordingly for when fade in starts and split
     level flag::wait_till("start_zombie_round_logic");
     wait 2.15;
-    IPrintLnBold(GetTime());
     switch(level.script)
     {
         case "zm_zod":
