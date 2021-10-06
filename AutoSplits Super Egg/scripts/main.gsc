@@ -120,7 +120,7 @@ zod_egg_splits()
     // Wait for the shadowman to be defeated
     level flag::wait_till("ee_boss_defeated");
     compiler::livesplit("split");
-    compiler::livesplit("pause");
+    if(level.activePlayers.size == 1) compiler::livesplit("pause");
 
     // If 4 players are in the game, wait for the egg to be complete
     if(level.activePlayers.size == 4)
