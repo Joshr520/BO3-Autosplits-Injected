@@ -25,4 +25,4 @@ If you want subsplits for each map, this is already enabled so you don't need to
 
 # Injecting the autosplits
 Open VSC and click file -> Preferences -> Keyboard Shortcuts. Search for "run test task" and give it a keybind.  
-To inject the autosplits, wait for the game to be open and at the main menu. Press your keybind and it should tell you it has injected. Now you can just start playing.
+To inject the autosplits, wait for the game to be open and at the main menu. Press your keybind while you have one of the gsc files open in VSC and it should tell you it has injected. Now you can just start playing.
