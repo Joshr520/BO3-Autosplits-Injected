@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>169</X>
-  <Y>189</Y>
+  <X>-404</X>
+  <Y>148</Y>
   <VerticalWidth>252</VerticalWidth>
   <VerticalHeight>338</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -86,7 +86,7 @@
         <OverrideTimesColor>False</OverrideTimesColor>
         <ShowBlankSplits>True</ShowBlankSplits>
         <LockLastSplit>True</LockLastSplit>
-        <IconSize>24</IconSize>
+        <IconSize>32</IconSize>
         <IconShadows>True</IconShadows>
         <SplitHeight>3.6</SplitHeight>
         <CurrentSplitGradient>Vertical</CurrentSplitGradient>
@@ -105,8 +105,8 @@
           <Settings>
             <Version>1.5</Version>
             <Name>+/-</Name>
-            <Type>DeltaorSplitTime</Type>
-            <Comparison>Average Segments</Comparison>
+            <Type>Delta</Type>
+            <Comparison>Current Comparison</Comparison>
             <TimingMethod>Current Timing Method</TimingMethod>
           </Settings>
           <Settings>
