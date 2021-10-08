@@ -158,6 +158,7 @@ castle_egg_splits()
                 {
                     compiler::livesplit("split");
                     break_loop = true;
+                    break;
                 }
             }
             if(break_loop) break;
@@ -187,6 +188,7 @@ castle_egg_splits()
 
 monitor_teleport_split()
 {
+    level endon("first_teleport");
     for(;;)
     {
         // Wait for teleporter to be triggered, then check the according flags to see if wisps are finished
@@ -194,6 +196,7 @@ monitor_teleport_split()
         if(zm_utility::is_player_valid(e_player) && !level.is_cooldown && !level flag::get("rocket_firing") && level flag::get("time_travel_teleporter_ready"))
         {
             compiler::livesplit("split");
+            level notify("first_teleport");
             break;
         }
     }
@@ -219,6 +222,7 @@ island_egg_splits()
                 {
                     compiler::livesplit("split");
                     break_loop = true;
+                    break;
                 }
             }
             if(break_loop) break;
@@ -235,6 +239,7 @@ island_egg_splits()
                 {
                     compiler::livesplit("split");
                     break_loop = true;
+                    break;
                 }
             }
             if(break_loop) break;
@@ -319,6 +324,7 @@ genesis_egg_splits()
                 {
                     compiler::livesplit("split");
                     break_loop = true;
+                    break;
                 }
             }
             if(break_loop) break;
