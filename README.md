@@ -6,8 +6,7 @@ Credits to serious for making the injector and making it customizable to add thi
 # Pre-Requisites
 Download Visual Studio Code (VSC) - https://code.visualstudio.com/  
 Download and install the T7/T8 Compiler - https://github.com/shiversoftdev/t7-compiler/releases/tag/current  
-Run the exe file and click Install Compiler. You can instal the VSC extension if you like, but it's not required  
-After installing the compiler, navigate to your C: drive -> open the t7compiler folder -> replace the t7cinternal.dll file with the given t7cinternal.dll file in this repository.
+Run the exe file and click Install Compiler. You can instal the VSC extension if you like, but it's not required.
 
 # Setting up LiveSplit
 Super egg splits are supplied with subsplits for each map and 1 split for each map. If you're not running super egg, you can just use your normal splits and layout. Open the corresponding splits and layout files for what you want.
