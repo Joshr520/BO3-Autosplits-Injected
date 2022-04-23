@@ -1,12 +1,12 @@
 # BO3-Autosplits-Injected
-# #Summary
+# Summary
 A collection of injectable autosplitters for Black Ops 3. These splits run via the game and offer more control over easter egg splitting and more accuracy for split times.  
 Credits to serious for making the injector and making it customizable to add this functionality.
 
 # Pre-Requisites
 Download Visual Studio Code (VSC) - https://code.visualstudio.com/  
 Download and install the T7/T8 Compiler - https://github.com/shiversoftdev/t7-compiler/releases/tag/current  
-Run the exe file and click Install Compiler. You can instal the VSC extension if you like, but it's not required.
+Run the exe file and click Install Compiler. You can install the VSC extension if you like, but it's not required.
 
 # Setting up LiveSplit
 Super egg splits are supplied with subsplits for each map and 1 split for each map. If you're not running super egg, you can just use your normal splits and layout. Open the corresponding splits and layout files for what you want.
